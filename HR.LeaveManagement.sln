@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{B98615D1-34F4-44CF-A1F2-145720689D46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2F2BB116-FE86-4DFA-8F72-442FB45A3335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D6B7AEC5-7A9C-4A8C-A3B5-C4CF0405928C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ui", "Ui", "{2BAD2E56-4865-422D-9D08-03282063900F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C9BA28DA-15D5-40CD-941F-6CEB2C330487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{9C7B866F-C48B-4481-B34C-1CED50FAFEEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{76D36C34-65E3-4EDA-8655-8C19227DAF11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C7B866F-C48B-4481-B34C-1CED50FAFEEA} = {2F2BB116-FE86-4DFA-8F72-442FB45A3335}
+		{76D36C34-65E3-4EDA-8655-8C19227DAF11} = {2F2BB116-FE86-4DFA-8F72-442FB45A3335}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C7B866F-C48B-4481-B34C-1CED50FAFEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7B866F-C48B-4481-B34C-1CED50FAFEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7B866F-C48B-4481-B34C-1CED50FAFEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7B866F-C48B-4481-B34C-1CED50FAFEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D36C34-65E3-4EDA-8655-8C19227DAF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D36C34-65E3-4EDA-8655-8C19227DAF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D36C34-65E3-4EDA-8655-8C19227DAF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D36C34-65E3-4EDA-8655-8C19227DAF11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
