@@ -1,4 +1,4 @@
-﻿using HR.LeaveManagement.Application.Dto;
+﻿using HR.LeaveManagement.Application.Dto.LeaveType;
 using HR.LeaveManagement.Domain;
 
 namespace HR.LeaveManagement.Application.Persistence.Contracts;
